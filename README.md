@@ -1,70 +1,23 @@
-# React Tetris V1
+Tetris_V2
+# React Tetris
 
-Tetris game built with React
+> Fully responsive tetris game built with ReactJS
+
+<p align="start">
+	  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/mpirescarvalho/react-tetris?style=flat">
+	  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/mpirescarvalho/react-tetris">
+	  <img alt="GitHub stars" src="https://img.shields.io/github/stars/mpirescarvalho/react-tetris?style=social">
+	  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/mpirescarvalho/react-tetris">
+	  <a href="https://mpirescarvalho.github.io/react-tetris/">
+			<img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fmpirescarvalho.github.io/react-tetris">
+    </a>
+</p>
 
 <h1 align="center">
-  <img alt="React tetris " title="#React tetris desktop" src="./images/game.jpg" />
+  <img alt="React tetris desktop" title="#React tetris desktop" src="./assets/react-tetris-desktop-1.png" />
+  <img width="35%" alt="React tetris mobile 2" title="#React tetris mobile 2" src="./assets/react-tetris-mobile-2.png" />
+  <img width="35%" alt="React tetris mobile 1" title="#React tetris mobile 1" src="./assets/react-tetris-mobile-1.png" />
 </h1>
 
 
-Use Sonarqube block 
-```
-environment {
-        SCANNER_HOME=tool 'sonar-scanner'
-      }
 
-stage("Sonarqube Analysis "){
-            steps{
-                withSonarQubeEnv('sonar-server') {
-                    sh ''' $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=Amazon \
-                    -Dsonar.projectKey=Amazon '''
-                }
-            }
-        }
-```        
-
-Owasp block
-```
-stage('OWASP FS SCAN') {
-            steps {
-                dependencyCheck additionalArguments: '--scan ./ --disableYarnAudit --disableNodeAudit', odcInstallation: 'DP-Check'
-                dependencyCheckPublisher pattern: '**/dependency-check-report.xml'
-            }
-        }
-```
-
-# ARGO CD SETUP
-https://archive.eksworkshop.com/intermediate/290_argocd/install/
-
-# Image updater stage
-```
- environment {
-    GIT_REPO_NAME = "Tetris-manifest"
-    GIT_USER_NAME = "Aj7Ay"
-  }
-    stage('Checkout Code') {
-      steps {
-        git branch: 'main', url: 'https://github.com/Aj7Ay/Tetris-manifest.git'
-      }
-    }
-
-    stage('Update Deployment File') {
-      steps {
-        script {
-          withCredentials([string(credentialsId: 'github', variable: 'GITHUB_TOKEN')]) {
-            // Determine the image name dynamically based on your versioning strategy
-            NEW_IMAGE_NAME = "sevenajay/tetris77:latest"
-
-            // Replace the image name in the deployment.yaml file
-            sh "sed -i 's|image: .*|image: $NEW_IMAGE_NAME|' deployment.yml"
-
-            // Git commands to stage, commit, and push the changes
-            sh 'git add deployment.yml'
-            sh "git commit -m 'Update deployment image to $NEW_IMAGE_NAME'"
-            sh "git push https://${GITHUB_TOKEN}@github.com/${GIT_USER_NAME}/${GIT_REPO_NAME} HEAD:main"
-          }
-        }
-      }
-    }
-
-```
