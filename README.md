@@ -1,7 +1,7 @@
 # Project_0225_DevSecOps_CICD_Pipeline_with_Terraform_Jenkins_ArgoCD_and_EKS
 ![DevelopmentEnvironemntSetupProject!](https://github.com/Gabinsime75/Project_0225_DevSecOps_CICD_Pipeline_with_Terraform_Jenkins_ArgoCD_and_EKS/blob/main/Project_0225_DevSecOps_CICD_Pipeline_with_Terraform_Jenkins_ArgoCD_and_EKS.jpg)
 
-###### Project ToolBox 🧰
+## Project ToolBox 🧰
 - [Git](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/identity-and-access-control.html) Provides secure authentication for AWS resources.
 - [AWS Configure]([https://aws.amazon.com/ec2](https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-configure.html)/) Manages AWS CLI profiles and credentials for Terraform     and Jenkins.
 - [Git](https://git-scm.com/) Git will be used to manage our application source code.
