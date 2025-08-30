@@ -22,7 +22,7 @@
 - [Splunk](https://www.splunk.com/) Log aggregation and analysis tool for observability and security monitoring.
     
 
-🚀 Project Workflow
+## 🚀 Project Workflow
 1) Infrastructure Provisioning
     - Terraform provisions the required AWS infrastructure (EKS cluster, S3 state backend, IAM roles, etc.).
     - AWS CLI is configured using IAM credentials for secure provisioning.
