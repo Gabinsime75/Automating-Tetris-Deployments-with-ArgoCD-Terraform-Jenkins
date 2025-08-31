@@ -2,8 +2,7 @@
 ![DevelopmentEnvironemntSetupProject!](https://github.com/Gabinsime75/Project_0225_DevSecOps_CICD_Pipeline_with_Terraform_Jenkins_ArgoCD_and_EKS/blob/main/Project_0225_DevSecOps_CICD_Pipeline_with_Terraform_Jenkins_ArgoCD_and_EKS.jpg)
 
 ## Project ToolBox 🧰
-- [Git](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/identity-and-access-control.html) Provides secure authentication for AWS resources.
-- [AWS Configure]([https://aws.amazon.com/ec2](https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-configure.html)/) Manages AWS CLI profiles and credentials for Terraform     and Jenkins.
+- [AWS Configure]([https://aws.amazon.com/ec2](https://docs.aws.amazon.com/cli/v1/userguide/cli-chap-configure.html) Manages AWS CLI profiles and credentials for Terraform     and Jenkins.
 - [Git](https://git-scm.com/) Git will be used to manage our application source code.
 - [Github](https://github.com/) Github is a free and open source distributed VCS designed to handle everything from small to very large projects with speed and efficiency
 - [Jenkins](https://www.jenkins.io/doc/) Jenkins is a self-contained, open source automation server that can be used to automate all sorts of tasks related to building,           testing, and delivering or deploying software.
