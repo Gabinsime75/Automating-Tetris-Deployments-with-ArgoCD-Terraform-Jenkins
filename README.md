@@ -1,5 +1,5 @@
 # Project_0225_DevSecOps_CICD_Pipeline_with_Terraform_Jenkins_ArgoCD_and_EKS
-![DevelopmentEnvironemntSetupProject!](https://github.com/Gabinsime75/Project_0225_DevSecOps_CICD_Pipeline_with_Terraform_Jenkins_ArgoCD_and_EKS/blob/main/Project_0225_DevSecOps_CICD_Pipeline_with_Terraform_Jenkins_ArgoCD_and_EKS.jpg)
+![DevelopmentEnvironemntSetupProject!](https://github.com/Gabinsime75/Project_0225_DevSecOps_CICD_Pipeline_with_Terraform_Jenkins_ArgoCD_and_EKS/blob/main/Project_0225_Architectures.jpg)
 
 ## Project ToolBox 🧰
 - [Git](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/identity-and-access-control.html) Provides secure authentication for AWS resources.
