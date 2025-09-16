@@ -1,7 +1,9 @@
 terraform {
   backend "s3" {
-    bucket = "ratmdatastore" # Replace with your actual S3 bucket name
+    bucket = "project0225-state-bucket"
     key    = "eks/terraform.tfstate"
-    region = "ap-south-1"
+    region = "us-east-2"
+    encrypt = true
+    use_lockfile = true
   }
 }
