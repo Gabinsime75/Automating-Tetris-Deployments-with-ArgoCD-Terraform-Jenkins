@@ -1,4 +1,4 @@
-# DevSecOps_CICD_Pipeline_with_Terraform_Jenkins_ArgoCD_and_EKS
+# Automating-Tetris-Deployments-with-ArgoCD-Terraform-Jenkins
 ![DevelopmentEnvironemntSetupProject!](https://github.com/Gabinsime75/Project_0225_DevSecOps_CICD_Pipeline_with_Terraform_Jenkins_ArgoCD_and_EKS/blob/main/Project_0225_DevSecOps_CICD_Pipeline_with_Terraform_Jenkins_ArgoCD_and_EKS.jpg)
 
 ## Project ToolBox 🧰
