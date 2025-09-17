@@ -1,5 +1,5 @@
 # Automating-Tetris-Deployments-with-ArgoCD-Terraform-Jenkins
-![DevelopmentEnvironemntSetupProject!](https://github.com/Gabinsime75/Automating-Tetris-Deployments-with-ArgoCD-Terraform-Jenkins/blob/main/Project_Architecture.jpg)
+![DevelopmentEnvironemntSetupProject!](https://github.com/Gabinsime75/Automating-Tetris-Deployments-with-ArgoCD-Terraform-Jenkins/blob/main/DevSecOps_CICD_Pipeline_with_Terraform_Jenkins_ArgoCD_and_EKS.jpg)
 
 ## Project ToolBox 🧰
 - [Git](https://docs.aws.amazon.com/whitepapers/latest/introduction-aws-security/identity-and-access-control.html) Provides secure authentication for AWS resources.
